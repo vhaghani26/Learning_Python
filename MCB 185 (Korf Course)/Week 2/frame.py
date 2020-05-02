@@ -23,16 +23,6 @@ for i in range (0, len(dna), 3):
         c = i + j
         print (c, j, dna[c])
 
-"""
-# This is with nested loops
-
-dna = 'ATGGCCTTT'
-
-for i in range(len(dna)):
-	print(i, dna[i])
-"""
-
-
 
 """
 dna = 'ATGGCCTTT'
