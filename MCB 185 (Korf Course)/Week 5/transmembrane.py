@@ -10,9 +10,12 @@
 # For our purposes:
 #	Signal peptide is 8 aa long, KD > 2.5, first 30 aa
 #	Hydrophobic region is 11 aa long, KD > 2.0, after 30 aa
+# Try coding so that command line argument works (no hard coding)
 
 import gzip
 import sys
+
+prot = str(sys.argv[1])
 
 def read_fasta(filename):
     name = None
@@ -66,6 +69,7 @@ def hydro(seq):
         elif aa == 'Y': kd += -1.3
     return kd / len(seq)
 
+# Goes through sequence in windows and assigns hydrophobicity; returns Bool if found
 def hh(seq, w, kd):
     for i in range(len(seq) -w +1):
         win = seq[i:i+w]
@@ -73,8 +77,8 @@ def hh(seq, w, kd):
             return True
     return False
     
-
-for name, seq in read_fasta('proteins.fasta.gz'):
+# Loop through the sequence file
+for name, seq in read_fasta(prot):
     nterm = seq[0:30]
     rest = seq[30:]
     if hh(nterm, 8, 2.5) and hh(rest, 11, 2.0):
