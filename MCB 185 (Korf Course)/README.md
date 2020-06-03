@@ -10,3 +10,4 @@ Week 4: birthday.py, entropy.py, proc23.py, rand_seq.py, seqstats.py, stats.py, 
 
 Week 5: exonic_snps.py, exons.txt.gz, fasta_stats.py, longest_orf.py, pepsearch.py, proteins.fasta.gz, rand_fasta_at_gc.py, rand_fasta.py, snps.txt.gz, transcripts.fasta.gz, transmembrane.py
 
+Week 6: argparse_lesson.py, biotools.py, entropy_filter.py, genome.fa.gz, seq_gen.py, skew.py, translate_mRNA.py, transmembrane_2.py
