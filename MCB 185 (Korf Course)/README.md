@@ -14,6 +14,6 @@ Week 5: exonic_snps.py, exons.txt.gz, fasta_stats.py, longest_orf.py, pepsearch.
 
 Week 6: argparse_lesson.py, biotools.py, entropy_filter.py, genome.fa.gz, seq_gen.py, skew.py, translate_mRNA.py, transmembrane_2.py
 
-Week 7: checklist.py, competition.py, composition.py, hydrophobicity.py, translate_mRNA_2.py, transmembrane_3.py
+Week 7: biotools.py, checklist.py, competition.py, composition.py, hydrophobicity.py, translate_mRNA_2.py
 
 biotools.py
