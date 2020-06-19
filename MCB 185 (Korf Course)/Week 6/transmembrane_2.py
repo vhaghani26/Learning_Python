@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 
+# Write a program that predicts if a protein is trans-membrane
+# Trans-membrane proteins have the following properties
+#	Signal peptide: https://en.wikipedia.org/wiki/Signal_peptide
+#	Hydrophobic regions(s): https://en.wikipedia.org/wiki/Transmembrane_protein
+#	No prolines (alpha helix)
+# Hydrophobicity is measued via Kyte-Dolittle
+#	https://en.wikipedia.org/wiki/Hydrophilicity_plot
+# For our purposes:
+#	Signal peptide is 8 aa long, KD > 2.5, first 30 aa
+#	Hydrophobic region is 11 aa long, KD > 2.0, after 30 aa
+
+# Use a dictionary for the K-D values, and store in biotools
+# Use argparse for command line
+
 import argparse
 import random
 import biotools as bt
