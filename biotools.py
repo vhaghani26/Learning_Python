@@ -95,7 +95,7 @@ def skew(seq):                                                      #(g-c)/(g+c)
 		elif nt == 'C': c_count += 1
 	return (g_count - c_count) / (g_count + c_count)
 
-def find_orfs(seq, minprot):                                        # Identifying and storing all possible genes in a dictionary as "gene name: DNA sequence"
+def find_orfs(seq, minprot):                                        # Identifying and storing all possible open reading frames
     atgs = []
     orfs = []
     stops = {}
