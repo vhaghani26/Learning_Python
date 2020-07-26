@@ -2,6 +2,8 @@ This folder is for my MCB 185 class, where we are learning how to code using Pyt
 
 Class Notes: 01_variables.py, 02_math.py, 03_text.py, 04_loops.py, 05_conditionals.py, 06_string_formatting.py, 07_lists.py, 07_lists_extra.py, 08_assert.py, 09_fileinput.py, 10_files.py, 10_files_extra.py, 11_in.py, 12_functions.py, 12_functions_extra.py, 13_argparse.py, 14_module.py, 15_dictionaries.py, 16_data.py, gumpy.md
 
+Final Projects: Bacterial Gene Finder
+
 Week 1: hello_world.py
 
 Week 2: sumfac.py, codons.py, aa_pairs.py, frame.py
